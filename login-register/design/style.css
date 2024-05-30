@@ -1,0 +1,38 @@
+
+
+body {
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container-header {
+    background-color: #040950;
+    height: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 4    0px;
+    color: white;
+}
+
+.container-header a {
+    color: white;
+    text-decoration: none;
+}
+  
+.container-header li {
+    display: inline;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.container-header svg {
+    fill: white;
+}
+  
