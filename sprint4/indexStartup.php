@@ -1,15 +1,13 @@
 <?php
 session_start();
 
-if (!isset($_SESSION["id"], $_SESSION["user"], $_SESSION["full_name"])) {
-    header("Location: login.php");
+if (!isset($_SESSION["id"])) {
+    header("Location: loginStartup.php");
     exit(); // Encerrar a execução para garantir que o código abaixo não seja executado
 }
 
 // Agora $_SESSION['id'], $_SESSION['user'] e $_SESSION['full_name'] contêm as informações do usuário
 $user_id = $_SESSION["id"];
-$email = $_SESSION["user"];
-$full_name = $_SESSION["full_name"];
 
 ?>
 
@@ -27,11 +25,10 @@ $full_name = $_SESSION["full_name"];
 
 
     <div class="container">
-        <h1>Bem-vindo, <?php echo $full_name; ?></h1>
-        <p>Seu email: <?php echo $email; ?></p>
+        <h1>Bem-vindo</h1>
         <p>Seu id: <?php echo $user_id; ?></p>
         <a href="logout.php" class="btn btn-warning">Deslogar</a>
-        <form action="delete-account.php" method="post">
+        <form action="delete-account-startup.php" method="post">
             <input type="hidden" name="user_id" value="<?php echo htmlspecialchars($user_id); ?>">
             <button type="submit" name="delete-button" class="btn btn-danger">Excluir conta</button>
         </form>
