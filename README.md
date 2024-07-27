@@ -5,10 +5,10 @@ Bem-vindo ao Projeto de Inovação Tecnológica (PIT)! Este projeto foi desenvol
 O PIT visa facilitar a comunicação e a parceria entre empresas e investidores, ajudando a encontrar o ajuste perfeito entre ambos. A plataforma oferece uma interface amigável e funcionalidades avançadas para otimizar o processo de investimento e colaboração.
 
 # Tecnologias Utilizadas
-## Linguagem Principal: PHP
-## Front-End: HTML, CSS
-## Banco de Dados: MySQL
-## Outras Ferramentas: XAMPP, PHPMyAdmin
+#### Linguagem Principal: PHP
+#### Front-End: HTML, CSS
+#### Banco de Dados: MySQL
+#### Outras Ferramentas: XAMPP, PHPMyAdmin
 
 # Equipe
 Amanda Soares, Luiz Ortiz, Pedro Gonçalves, Rebeca Costa e Sofia Fernandes.
