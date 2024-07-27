@@ -22,39 +22,45 @@ Project Organization and Others: Pedro Gonçalves, Luiz Ortiz
 # Instalação
 Para configurar o ambiente de desenvolvimento e rodar o projeto localmente, siga os passos abaixo:
 
-## 1. Clone o repositório:
+## 1. Instale o XAMPP
 
 ```bash
-git clone [URL_DO_REPOSITÓRIO]
+https://www.apachefriends.org/download.html
 ```
 
-bash
-Copiar código
-cd [NOME_DO_DIRETÓRIO]
-Instale as dependências:
+## 2. Abra o htdocs
 
-bash
-Copiar código
-[COMANDO_PARA_INSTALAR_DEPENDÊNCIAS]
-Configure o banco de dados:
+```bash
+C:\xampp\htdocs
+```
 
-Crie um banco de dados e importe o arquivo de esquema fornecido.
-Configure as variáveis de ambiente:
+## 3. Clone o repositório:
 
-Copie o arquivo .env.example para .env e ajuste as configurações conforme necessário.
-Inicie o servidor:
+```bash
+git clone https://github.com/becanmc/pit
+```
 
-bash
-Copiar código
-[COMANDO_PARA_INICIAR_O_SERVIDOR]
-Contribuindo
-Se você deseja contribuir para o projeto, sinta-se à vontade para abrir uma "issue" ou enviar um "pull request". Sua colaboração é muito bem-vinda!
+## 4. Navegue até o diretório do projeto:
 
-Contato
+```bash
+cd [NOME_DO_DIRETÓRIO] //SPRINT1, SPRINT2, SPRINT3
+```
+
+## 5. Abra o Control Panel do XAMPP
+
+## 6. Inicie o Apache e o MySQL
+
+## 7. Inicie o projeto no navegador
+
+```bash
+http://localhost/login-register/login.php
+```
+
+# Contato
 Para dúvidas ou mais informações, entre em contato com a equipe através dos seguintes canais:
 
-E-mail: [EMAIL_DA_EQUIPE]
-LinkedIn: [PERFIL_LIKEDIN_DA_EQUIPE]
-Licença
-Este projeto está licenciado sob a [Nome da Licença]. Veja o arquivo [LICENSE] para mais detalhes.
+E-mail: 22201653@aluno.cotemig.com.br
+
+# Licença
+Este projeto está licenciado sob a MIT. Veja o arquivo [LICENSE] para mais detalhes.
 
