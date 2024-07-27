@@ -43,7 +43,7 @@ git clone https://github.com/becanmc/pit
 ## 4. Navegue até o diretório do projeto:
 
 ```bash
-cd [NOME_DO_DIRETÓRIO] //SPRINT1, SPRINT2, SPRINT3
+cd [NOME_DO_DIRETÓRIO] #sprint1, sprint2
 ```
 
 ## 5. Abra o Control Panel do XAMPP
