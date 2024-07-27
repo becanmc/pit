@@ -23,10 +23,11 @@ Para configurar o ambiente de desenvolvimento e rodar o projeto localmente, siga
 
 # Clone o repositório:
 
-bash
-Copiar código
+```bash
+# Este é um exemplo de bloco de código Bash
 git clone [URL_DO_REPOSITÓRIO]
-Navegue até o diretório do projeto:
+cd [NOME_DO_DIRETÓRIO]
+```
 
 bash
 Copiar código
