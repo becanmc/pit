@@ -18,15 +18,14 @@ Back-End Developers: Sofia Fernandes, Rebeca Costa
 Front-End Developers: Amanda Soares, Sofia Fernandes, Rebeca Costa
 Database Analysts: Sofia Fernandes, Rebeca Costa
 Project Organization and Others: Pedro Gonçalves, Luiz Ortiz
-Instalação
+
+# Instalação
 Para configurar o ambiente de desenvolvimento e rodar o projeto localmente, siga os passos abaixo:
 
-# Clone o repositório:
+## 1. Clone o repositório:
 
 ```bash
-# Este é um exemplo de bloco de código Bash
 git clone [URL_DO_REPOSITÓRIO]
-cd [NOME_DO_DIRETÓRIO]
 ```
 
 bash
